@@ -10,7 +10,7 @@
 
         cmb {
             bindings = <&lg_tog>;
-            key-positions = <3 4>;
+            key-positions = <3 4 24>;
             layers = <0 1>;
         };
     };
@@ -81,9 +81,9 @@
 
         sym_en {
             bindings = <
-&trans  &trans    &kp LT    &kp EQUAL  &kp GT    &kp EXCL                        &kp AMPS  &kp LBKT  &kp UNDER  &kp RBKT    &trans     &trans
+&trans  &kp BSLH  &kp LT    &kp EQUAL  &kp GT    &kp EXCL                        &kp AMPS  &kp LBKT  &kp UNDER  &kp RBKT    &kp CARET  &trans
 &trans  &kp FSLH  &kp LPAR  &kp COLON  &kp RPAR  &kp QUESTION                    &kp PIPE  &kp LBRC  &kp SEMI   &kp RBRC    &kp GRAVE  &trans
-&trans  &kp BSLH  &kp STAR  &kp MINUS  &kp PLUS  &kp PERCENT   &trans    &trans  &kp AT    &kp HASH  &kp TILDE  &kp DOLLAR  &kp CARET  &trans
+&trans  &trans    &kp STAR  &kp MINUS  &kp PLUS  &kp PERCENT   &trans    &trans  &kp AT    &kp HASH  &kp TILDE  &kp DOLLAR  &trans     &trans
                                        &trans    &mo 5         &trans    &trans  &trans    &trans
             >;
 
@@ -93,10 +93,10 @@
         sum_ru {
             display-name = "Symbols";
             bindings = <
-&trans  &trans    &en LT    &kp EQUAL  &en GT    &kp EXCL                        &en AMPS  &en LBKT  &kp UNDER  &en RBKT    &trans     &trans
-&trans  &en FSLH  &kp LPAR  &en COLON  &kp RPAR  &en QUESTION                    &en PIPE  &en LBRC  &en SEMI   &en RBRC    &en GRAVE  &trans
-&trans  &kp BSLH  &kp STAR  &kp MINUS  &kp PLUS  &kp PERCENT   &trans    &trans  &en AT    &en HASH  &en TILDE  &en DOLLAR  &en CARET  &trans
-                                       &trans    &mo 5         &trans    &trans  &trans    &trans
+&trans  &kp RU_BSLH  &en LT       &kp EQUAL     &en GT    &kp EXCL                           &en AMPS  &en LBKT  &kp UNDER    &en RBKT    &en CARET  &trans
+&trans  &en RU_FSLH  &kp LPAR     &kp RU_COLON  &kp RPAR  &en RU_QUESTION                    &en PIPE  &en LBRC  &kp RU_SEMI  &en RBRC    &en GRAVE  &trans
+&trans  &trans       &kp RU_STAR  &kp MINUS     &kp PLUS  &kp RU_PERCENT   &trans    &trans  &en AT    &en HASH  &en TILDE    &en DOLLAR  &trans     &trans
+                                                &trans    &mo 5            &trans    &trans  &trans    &trans
             >;
         };
 
