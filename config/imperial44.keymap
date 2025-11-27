@@ -11,6 +11,7 @@
         cmb {
             bindings = <&lg_tog>;
             key-positions = <3 4>;
+            layers = <0 1>;
         };
     };
 
