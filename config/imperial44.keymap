@@ -39,6 +39,8 @@
                 <&lg_tog>;
 
             label = "EN";
+            wait-ms = <0>;
+            tap-ms = <30>;
         };
     };
 
