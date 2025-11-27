@@ -10,8 +10,9 @@
 
         cmb {
             bindings = <&lg_tog>;
-            key-positions = <3 4 24>;
+            key-positions = <24 15 16>;
             layers = <0 1>;
+            timeout-ms = <200>;
         };
     };
 
@@ -94,7 +95,7 @@
             display-name = "Symbols";
             bindings = <
 &trans  &kp RU_BSLH  &en LT       &kp EQUAL     &en GT    &kp EXCL                           &en AMPS  &en LBKT  &kp UNDER    &en RBKT    &en CARET  &trans
-&trans  &en RU_FSLH  &kp LPAR     &kp RU_COLON  &kp RPAR  &en RU_QUESTION                    &en PIPE  &en LBRC  &kp RU_SEMI  &en RBRC    &en GRAVE  &trans
+&trans  &kp RU_FSLH  &kp LPAR     &kp RU_COLON  &kp RPAR  &kp RU_QUESTION                    &en PIPE  &en LBRC  &kp RU_SEMI  &en RBRC    &en GRAVE  &trans
 &trans  &trans       &kp RU_STAR  &kp MINUS     &kp PLUS  &kp RU_PERCENT   &trans    &trans  &en AT    &en HASH  &en TILDE    &en DOLLAR  &trans     &trans
                                                 &trans    &mo 5            &trans    &trans  &trans    &trans
             >;
